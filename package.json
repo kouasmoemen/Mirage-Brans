@@ -1,0 +1,19 @@
+{
+  "name": "mirage-brands",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "assets:night": "node scripts/make-night-cutouts.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "^0.35.4",
+    "vite": "latest"
+  }
+}
